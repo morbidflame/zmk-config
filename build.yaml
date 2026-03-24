@@ -17,7 +17,15 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+# include:
+#   - board: nice_nano//zmk
+#     shield: corne_left nice_view_adapter nice_view
+#   - board: nice_nano//zmk
+#     shield: corne_right nice_view_adapter nice_view
+
 include:
+  - board: nice_nano//zmk
+    shield: settings_reset
   - board: nice_nano//zmk
     shield: corne_left nice_view_adapter nice_view
   - board: nice_nano//zmk
